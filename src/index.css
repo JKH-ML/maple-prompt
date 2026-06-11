@@ -31,7 +31,7 @@ body {
 /* ── 헤더 ── */
 .app__header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
 }
 
 .app__title {
@@ -41,6 +41,99 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* ── 캐릭터 검색 ── */
+.charsearch {
+  max-width: 520px;
+  margin: 0 auto 48px;
+}
+
+.charsearch__form {
+  display: flex;
+  gap: 10px;
+}
+
+.charsearch__input {
+  flex: 1;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.charsearch__input::placeholder {
+  color: var(--text-dim);
+}
+
+.charsearch__input:focus {
+  border-color: var(--accent);
+}
+
+.charsearch__btn {
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 22px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.charsearch__btn:hover {
+  opacity: 0.9;
+}
+
+.charsearch__btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.charsearch__error {
+  margin-top: 12px;
+  text-align: center;
+  color: #ff7a7a;
+  font-size: 0.9rem;
+}
+
+.charsearch__result {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 22px;
+}
+
+.charsearch__img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.charsearch__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.charsearch__info strong {
+  font-size: 1.2rem;
+}
+
+.charsearch__info span {
+  color: var(--text-dim);
+  font-size: 0.9rem;
 }
 
 /* ── 갤러리 (핀터레스트 스타일 masonry) ── */

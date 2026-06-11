@@ -1,4 +1,5 @@
 import PromptCard from './components/PromptCard.jsx'
+import CharacterSearch from './components/CharacterSearch.jsx'
 import { prompts } from './data/prompts.js'
 
 export default function App() {
@@ -7,6 +8,8 @@ export default function App() {
       <header className="app__header">
         <h1 className="app__title">🎨 프롬프트 갤러리</h1>
       </header>
+
+      <CharacterSearch />
 
       <main className="gallery">
         {prompts.map((post) => (
