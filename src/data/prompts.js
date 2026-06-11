@@ -594,4 +594,13 @@ collectible character card feeling`,
     sourceUrl: 'https://www.inven.co.kr/board/maple/5974/6562230',
     likes: 0,
   },
+
+  {
+    id: 12,
+    title: 'chibi anime',
+    thumbnail: '/i1118144066.png',
+    prompt: `SD chibi anime girl, oversized head, tiny body, long platinum blonde twin tails, huge pastel pink ribbon, flat pastel colors, minimal cel shading, thick clean outlines, simple anime face, half-lidded pink eyes, tiny mouth, sleepy annoyed expression, bratty cute vibe, emotionless expression, kawaii web animation aesthetic, low detail facial features, soft pink and cream palette, cute sticker-like composition, Japanese chibi animation style, plain soft background`,
+    sourceUrl: 'https://m.inven.co.kr/board/maple/5974/6587352',
+    likes: 0,
+  },
 ]
