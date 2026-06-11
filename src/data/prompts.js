@@ -464,4 +464,134 @@ photorealistic, semi-realistic, realistic painting, 3D render, painterly style, 
     sourceUrl: 'https://www.inven.co.kr/board/maple/5974/6585346',
     likes: 0,
   },
+
+  {
+    id: 11,
+    title: '핸즈짤 특화 프롬프트',
+    thumbnail: '/i1110027587.png',
+    prompt: `Use the attached character image as the character reference.
+
+IMPORTANT:
+The original outfit/design from the reference character must be preserved and adapted into the final illustration.
+Maintain the character's original clothing identity, including:
+- outfit type
+- colors
+- accessories
+- sleeves
+- ribbons
+- shoes
+- patterns
+- fantasy/game-style details
+- class/job aesthetics
+- ornaments
+- iconic silhouette
+
+You may stylize or slightly modernize the outfit to fit the profile-card presentation,
+but it must still clearly look like the same original costume.
+
+Analyze and preserve the character's core identity:
+hairstyle,
+hair length,
+bangs,
+eye shape,
+eye color,
+facial expression style,
+original outfit motif,
+accessories,
+body proportions,
+silhouette,
+and overall personality vibe.
+
+Then redesign the character into a clean anime "character profile board / scrapbook card" illustration in the exact format and composition style of a trendy Japanese SNS-style profile sheet.
+
+STYLE:
+soft anime rendering,
+clean lineart,
+polished cel shading,
+pastel-highlighted colors,
+bright cheerful atmosphere,
+highly readable layout,
+modern Japanese character profile card aesthetic,
+slightly glossy eyes,
+smooth gradient hair highlights,
+youthful energetic mood
+
+LAYOUT:
+large centered half-body portrait as the main focus,
+multiple smaller side panels showing alternate expressions and poses,
+profile-sheet composition,
+decorative handwritten notes,
+cute stickers,
+doodles,
+stars,
+hearts,
+mini icons,
+small speech bubble,
+barcode-like decoration,
+personality notes section,
+likes/dislikes section,
+color palette swatches,
+character stats section
+
+BACKGROUND:
+white paper-like background with dark navy border framing,
+scrapbook / notebook page feeling,
+clean organized UI-style arrangement,
+small tape corners and memo boxes,
+minimal clutter but visually dense enough to feel like a real fandom profile card
+
+TEXT STYLE:
+all text should look handwritten or stylized like a Korean fandom character sheet,
+replace all placeholder text dynamically to match the inserted character's theme and personality,
+include:
+- character nickname
+- club/team/faction
+- favorite things
+- personality traits
+- signature color palette
+- role/class/title
+
+SMALL PANELS:
+include:
+- cute chibi version
+- cheering pose
+- pointing pose
+- smiling pose
+- wink expression
+- energetic pose
+- mascot-like mini version
+
+COLOR DESIGN:
+adapt the entire palette to match the character's dominant colors,
+harmonized accent colors,
+soft pastel contrast,
+high readability,
+anime merchandise aesthetic,
+cohesive UI-style color design
+
+EXPRESSION:
+friendly,
+bright,
+adorable,
+slightly competitive,
+confident but cute
+
+VERY IMPORTANT:
+The character must remain instantly recognizable as the original reference character.
+The outfit must faithfully reflect the original design instead of becoming a default sports uniform.
+
+masterpiece,
+best quality,
+anime profile sheet,
+Korean scrapbook aesthetic,
+character introduction card,
+clean composition,
+cute modern anime design,
+highly detailed face,
+glossy anime eyes,
+decorative typography,
+collectible character card feeling`,
+    sourceUrl: 'https://www.inven.co.kr/board/maple/5974/6562163',
+    likes: 0,
+  },
 ]
