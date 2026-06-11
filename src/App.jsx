@@ -6,9 +6,6 @@ export default function App() {
     <div className="app">
       <header className="app__header">
         <h1 className="app__title">🎨 프롬프트 갤러리</h1>
-        <p className="app__subtitle">
-          마음에 드는 프롬프트를 모아보고 공유하세요
-        </p>
       </header>
 
       <main className="gallery">
