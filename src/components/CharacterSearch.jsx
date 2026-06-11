@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ImageCropper from './ImageCropper.jsx'
 
 export default function CharacterSearch() {
   const [name, setName] = useState('')
@@ -49,16 +50,12 @@ export default function CharacterSearch() {
 
       {char && (
         <div className="charsearch__result">
-          <img
-            className="charsearch__img"
-            src={char.image}
-            alt={char.name}
-          />
           <div className="charsearch__info">
             <strong>{char.name}</strong>
             <span>Lv.{char.level} · {char.job}</span>
             <span>{char.world}</span>
           </div>
+          <ImageCropper imageUrl={char.image} />
         </div>
       )}
     </section>

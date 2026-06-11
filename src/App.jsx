@@ -1,25 +1,17 @@
-import PromptCard from './components/PromptCard.jsx'
-import CharacterSearch from './components/CharacterSearch.jsx'
-import { prompts } from './data/prompts.js'
+import { useEffect, useState } from 'react'
+import GalleryPage from './pages/GalleryPage.jsx'
+import CharacterPage from './pages/CharacterPage.jsx'
 
+// 의존성 없는 간단한 해시 라우팅 (#/  ·  #/character)
 export default function App() {
-  return (
-    <div className="app">
-      <header className="app__header">
-        <h1 className="app__title">🎨 프롬프트 갤러리</h1>
-      </header>
+  const [route, setRoute] = useState(window.location.hash)
 
-      <CharacterSearch />
+  useEffect(() => {
+    const onChange = () => setRoute(window.location.hash)
+    window.addEventListener('hashchange', onChange)
+    return () => window.removeEventListener('hashchange', onChange)
+  }, [])
 
-      <main className="gallery">
-        {prompts.map((post) => (
-          <PromptCard key={post.id} post={post} />
-        ))}
-      </main>
-
-      <footer className="app__footer">
-        총 {prompts.length}개의 프롬프트
-      </footer>
-    </div>
-  )
+  if (route === '#/character') return <CharacterPage />
+  return <GalleryPage />
 }
